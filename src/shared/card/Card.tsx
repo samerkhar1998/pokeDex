@@ -1,4 +1,4 @@
-import { IPokemon } from "../../shared/Interfaces";
+import { IPokemon } from "../Interfaces";
 import {fetchPokemon} from  "../../services/FetchData";
 import { useState,useEffect } from "react";
 import { Link } from "react-router-dom";

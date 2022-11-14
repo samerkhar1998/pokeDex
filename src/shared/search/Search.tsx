@@ -1,4 +1,4 @@
-import {IPokemons, IPokemon} from "../../shared/Interfaces";
+import {IPokemons, IPokemon} from "../Interfaces";
 import {useState} from "react";
 import "./Search.css";
 

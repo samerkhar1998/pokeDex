@@ -1,11 +1,11 @@
 import { useState,useEffect } from "react";
-import Card from "../card/Card";
+import Card from "../../shared/card/Card";
 import {fetchResults} from "../../services/FetchData";
 import { IPokemons } from "../../shared/Interfaces";
 import "../../shared/Body.css";
 import "../../shared/LoadMore.css";
 import { logoImg } from "../../shared/logo";
-import Search from "../search/Search";
+import Search from "../../shared/search/Search";
 
 const Home = () =>{
     const [pokemonResults, setPokemonResults] = useState<IPokemons | any>();
