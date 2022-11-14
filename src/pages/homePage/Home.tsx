@@ -24,31 +24,31 @@ const loadMore = async () =>{
 
 
 return (
-    <>
-        <body>
-            <div style={{position:"absolute",
-            margin: "50%",
-            marginTop: "2%",
-            marginBottom: "10%",
-            }}>
-                <img src={logoImg} alt="logo"/>
+        <>
+            <div >
+                <img src={logoImg} alt="logo" style={{
+                    margin: "25%",
+                    marginTop: "3%",
+                    marginBottom:"-11%"
+                }}/>
             </div>
 
-            <Search pokemonResults={pokemonResults} currPokemons={currPokemons} setCurrPokemons={setCurrPokemons}  />
-        
-            <div className="poke-grid">
-                {currPokemons &&
-                currPokemons.map((pokemon: {url:string}) => <Card pokemon={pokemon}/>)}         
+            {<Search pokemonResults={pokemonResults} currPokemons={currPokemons} setCurrPokemons={setCurrPokemons} />}
+                
+            <div style={{
+                margin:"2%",
+                marginTop:"25%"
+            }}>
+                <div className="poke-grid">
+                    {currPokemons &&
+                    currPokemons.map((pokemon: {url:string}) => <Card pokemon={pokemon}/>)}         
+                </div>
             </div>
 
             <div className="load-more">
                 <div className="text" onClick={loadMore}>Load more...</div>
             </div>
-        </body>
-        
-            
         </>
-        
 )
 
 };

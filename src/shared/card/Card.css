@@ -2,8 +2,7 @@
   width: 80%;
   height: 848px;
   position: absolute;
-  margin-top: 25%;
-  left: 30%;
+  /* left: 30%; */
 }
 
 .pokeRectangle{
@@ -11,7 +10,7 @@
   height: 250px;
   transition: 0.3s;
 
-  background: #F7F7F9;
+  background: #ededf3;
   border-radius: 9px;
 }
 .pokeRectangle:hover {

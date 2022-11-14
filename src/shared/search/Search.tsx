@@ -1,4 +1,4 @@
-import {IPokemons, IPokemon} from "../Interfaces";
+import {IPokemons, IPokemon} from "../../shared/Interfaces";
 import {useState} from "react";
 import "./Search.css";
 
@@ -28,29 +28,22 @@ const Search = (props: IProps) => {
     console.log(props.currPokemons);
     return (
             <div style={{position: "absolute",
-                margin:"50%",
-                marginTop: "15%",
-                marginBottom: "0%",
-                }}>
+                margin:"24%",
+                marginTop:"15%",
+            }}>
                 <div className="outerDiv">
 
                     <div className="searchBar">
                         <div className="leftDiv">
-                            <div className="rectangle21"><input type="text" name="search" id="search" onChange={e => setInputText(e.target.value.toLowerCase())} />
+                            <div className="rectangle21"><input type="text" name="search" id="search" onChange={e => setInputText(e.target.value.toLowerCase())} /></div>
                         </div>
-
                         <div className="rightDiv">
-                            <div className="rectangle22">
-                                <div className="search" onClick={inputHandler}>Search</div>
-                            </div>
+                            <div className="rectangle22"><div className="search" onClick={inputHandler}>Search</div></div>
+                        </div>
                         </div>
                     </div>
-                </div>
-            </div>
-                    
-                
-            
-            </div>
+                </div>            
+            // </div>
             
     );
 };
