@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import { fetchPokemon } from "../../services/FetchData";
 import { IPokemon } from "../../shared/Interfaces";
 import { logoImg } from "../../shared/logo";
-import Stats from "./Stats";
-import Types from "./Types";
+import Stats from "./PokemonStats";
+import Types from "./PokemonTypes";
 
 const Details = () =>{
     
