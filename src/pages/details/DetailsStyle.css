@@ -1,0 +1,29 @@
+.pokeGrid
+{
+    position: absolute;
+    width: 901px;
+    height: 371px;
+}
+
+.pokeGrid .pokeCard{
+    position: absolute;
+    width: 901px;
+    height: 371px;
+
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.pokeCard .description{
+    position: absolute;
+    width: 432px;
+    height: 250px;
+}
+
+.pokeCard .line{
+    position: absolute;
+    width: 246px;
+    height: 0px;
+
+    border: 1px solid #D7D7D7;
+    transform: rotate(-90deg);
+}

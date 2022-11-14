@@ -1,0 +1,63 @@
+.poke-grid{
+  width: 80%;
+  height: 848px;
+  position: absolute;
+  margin-top: 25%;
+  left: 30%;
+}
+
+.pokeRectangle{
+  width: 250px;
+  height: 250px;
+  transition: 0.3s;
+
+  background: #F7F7F9;
+  border-radius: 9px;
+}
+.pokeRectangle:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.pokeRectangle:id{
+width: 55px;
+height: 18px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+
+color: #373299;
+}
+
+.pokeRectangle .name{
+  position: absolute;
+  width: 138.99px;
+  height: 31px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #373299;
+}
+
+.pokeRectangle .Img{
+  position: absolute;
+width: 267.29px;
+height: 237.95px;
+}
+
+
+p{
+  margin: 1%;
+}
+
+h1 {
+  font-size: 100%;
+  color: rgb(81, 46, 11);
+  text-align: center;
+}

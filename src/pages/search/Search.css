@@ -1,0 +1,62 @@
+.outerDiv
+   {
+    height: 400px;
+    width: 600px;
+   margin: 0px auto;
+   padding: 5px;
+   }
+   .leftDiv
+   {
+   background-color: #efefef;
+   color: #000;
+   width: 80%;
+   float: left;
+   }
+   .rightDiv
+   {
+   background-color: #efefef;
+   color: #000;
+   width: 0%;
+   float: right;
+   }			
+
+
+.searchBar{
+  position: absolute;
+  width: 434px;
+  height: 37px;
+}
+.searchBar .rectangle21, input {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 341px;
+  height: 36px;
+
+  background: #F7F7F9;
+  border: 1px solid rgba(2, 1, 102, 0.5);
+  border-radius: 9px;
+}
+.searchBar .rectangle22{
+  position: absolute;
+  width: 87px;
+  height: 36px;
+
+  background: #373299;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.rectangle22 .search{
+  position: absolute;
+  width: 59px;
+  height: 22px;
+  padding-left: 20%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+
+  color: #F7F7F9;
+}

@@ -1,0 +1,23 @@
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    position: absolute;
+    width: 1283px;
+    height: 1307px;
+    background: #FCFCFC;
+  }
+  
+
+.title{
+  text-align: center;
+  font-size: large;
+}
+
+.row {
+  margin:0px -5px ;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding-bottom: 1%;
+}

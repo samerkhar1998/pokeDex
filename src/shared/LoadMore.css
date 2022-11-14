@@ -1,0 +1,31 @@
+.load-more {
+  position: fixed;
+  left: 40%;
+  bottom: 0;
+  text-align: center;
+
+  width: 210px;
+  height: 36px;
+
+  border: 1px solid #373299;
+  border-radius: 9px;
+  cursor: pointer;
+ 
+}
+.load-more .text{
+  position: static;
+  width: 50%;
+  height: 21px;
+  padding-left: 25%;
+  bottom: 0;
+  left: 0;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  /* identical to box height */
+
+  color: #373299;
+}
